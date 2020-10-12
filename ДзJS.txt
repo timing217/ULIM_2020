@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body ng-app="">
+Студет 1: <input type="checkbox" ng-model="myVar1">
+<div ng-show="myVar1">
+<p>Фамилия 1</p>
+<p>Имя 1</p>
+<p>оценка 1</p>
+</div>
+<br>
+Студет 2: <input type="checkbox" ng-model="myVar2">
+<div ng-show="myVar2">
+<p>Фамилия 2</p>
+<p>Имя 2</p>
+<p>оценка 2</p>
+</div>
+</br>
+Студет 3: <input type="checkbox" ng-model="myVar3">
+<div ng-show="myVar3">
+<p>Фамилия 3</p>
+<p>Имя 3</p>
+<p>оценка 3</p>
+</div>
+</body>
+</html>
